@@ -2,7 +2,7 @@
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
-var rotate = function(matrix) {                            
+export const rotate = function(matrix) {                            
     let n = matrix[0].length;
     
     //swap digonaly
@@ -20,7 +20,4 @@ var rotate = function(matrix) {
      }
      
      return matrix;
-  };
-
-const matrix = [[1,2,3],[4,5,6],[7,8,9]];
-rotate(matrix);
+};

@@ -2,7 +2,7 @@
  * @param {number[]} temperatures
  * @return {number[]}
  */
-var dailyTemperatures = function(temperatures) {
+export var dailyTemperatures = function(temperatures) {
     let arr = new Array(temperatures.length);
     
     let stk = [];

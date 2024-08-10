@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "roots": ["./Tests/"],
+    "testEnvironment": "node",
+    "moduleFileExtensions":["js"],
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+}
