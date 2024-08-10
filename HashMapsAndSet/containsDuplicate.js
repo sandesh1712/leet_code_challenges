@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var containsDuplicate = function(nums) {
+export var containsDuplicate = function(nums) {
     let set = new Set();
     let prevSize = set.size;
     for(i of nums){
