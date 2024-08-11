@@ -13,6 +13,6 @@ export var containsDuplicate = function(nums) {
           return true;
         prevSize = set.size;  
     }
-
+    
     return false;
 };
