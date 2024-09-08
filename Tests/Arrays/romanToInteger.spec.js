@@ -1,7 +1,7 @@
 import { romanToInt } from "../../Arrays/romanToInteger";
 
 
-describe("Rotate Matrix",()=>{
+describe("Roman To Integer",()=>{
   const samples = {
      first: "XX",
      second: "III",
